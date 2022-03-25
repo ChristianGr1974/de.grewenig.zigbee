@@ -1,0 +1,34 @@
+{
+  "triggers": [
+    {
+      "id": "Up Short Press",
+      "title": {
+        "en": "Button UP was pressed short"
+      }
+    },
+    {
+      "id": "Down Short Press",
+      "title": {
+        "en": "Button DOWN was pressed short"
+      }
+    },
+    {
+      "id": "Up Long Press",
+      "title": {
+        "en": "Button UP was pressed long"
+      }
+    },
+    {
+      "id": "Down Long Press",
+      "title": {
+        "en": "Button DOWN was pressed long"
+      }
+    },
+    {
+      "id": "Stop",
+      "title": {
+        "en": "Button STOP was pressed"
+      }
+    }
+  ]
+}

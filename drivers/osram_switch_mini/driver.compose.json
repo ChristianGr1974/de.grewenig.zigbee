@@ -1,0 +1,39 @@
+{
+  "name": {
+    "en": "Switch Mini"
+  },
+  "class": "remote",
+  "capabilities": ["alarm_battery", "onoff", "dim"],
+  "platforms": ["local"],
+  "connectivity": ["zigbee"],
+  "energy": {
+    "batteries": ["CR2450"]
+  },
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "zigbee": {
+    "manufacturerName": "OSRAM",
+    "productId": ["Lightify Switch Mini", "Lightify Switch Mini\u0000"],
+    "endpoints": {
+      "1": {
+        "clusters": [0, 1, 3, 4, 5, 6, 8, 25, 32, 768, 4096]
+      },
+      "2": {
+        "clusters": [0, 3, 4, 5, 6, 8, 768, 4096, 64768]
+      },
+      "3": {
+        "clusters": [0, 3, 4, 5, 6, 8, 768, 4096, 64768]
+      }
+    },
+    "learnmode": {
+      "image": "/drivers/osram_switch_mini/assets/learnmode.svg",
+      "instruction": {
+        "en": "Hold the top and middle button until a blue light starts flashing.\n\n",
+        "de": "Halten Sie die obere und mittlere Taste gedrückt, bis das blaues Licht zu blinken beginnt.\n\n"
+      }
+    }
+  }
+}

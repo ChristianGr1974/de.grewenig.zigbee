@@ -1,0 +1,43 @@
+{
+  "id": "de.grewenig.zigbee",
+  "source": "https://github.com/athombv/com.athom.myapp",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "platforms": ["local"],
+  "brandColor": "#FF4040",
+  "name": {
+    "en": "OSRAM Lightify Devices",
+    "de": "OSRAM Lightify Geräte"
+  },
+  "description": {
+    "en": "Discover a new dimension of light with OSRAM Lightify",
+    "de": "Entdecken Sie eine neue Dimension des Lichts mit OSRAM Lightify"
+  },
+  "tags": {
+    "en": [
+      "zigbee",
+      "osram",
+      "lights",
+      "bulb",
+      "switch",
+      "remote",
+      "mini",
+      "lightify"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/ChristianGr1974/de.grewenig.httpenergymeter/issues"
+  },
+  "category": ["lights"],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Christian Grewenig",
+    "email": "christian@grewenig.de"
+  }
+}
