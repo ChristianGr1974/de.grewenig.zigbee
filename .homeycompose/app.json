@@ -1,6 +1,6 @@
 {
   "id": "de.grewenig.zigbee",
-  "source": "https://github.com/athombv/com.athom.myapp",
+  "source": "https://github.com/ChristianGr1974/de.grewenig.zigbee",
   "version": "1.0.0",
   "compatibility": ">=5.0.0",
   "sdk": 3,
@@ -27,7 +27,7 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/ChristianGr1974/de.grewenig.httpenergymeter/issues"
+    "url": "https://github.com/ChristianGr1974/de.grewenig.zigbee/issues"
   },
   "category": ["lights"],
   "permissions": [],
